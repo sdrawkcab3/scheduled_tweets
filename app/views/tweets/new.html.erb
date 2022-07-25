@@ -1,0 +1,4 @@
+<h1>Schedule a Tweet</h1>
+<%= button_to "Connect a differet Twitter account", "/auth/twitter2", method: :post, data: {turbo: "false"}, class: "btn btn-primary" %>
+
+<%= render "form", tweet: @tweet %>
